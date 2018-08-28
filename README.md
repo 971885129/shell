@@ -38,3 +38,9 @@ cat test.R | R --vanilla --slave --args <参数1>
                 echo "Usage: `basename $0` [options] filename"
         esac
     done
+
+## awk
+awk导入外部变量
+
+         awk -v i="$i" '$3==i 。。。。。
+    
