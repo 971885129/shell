@@ -43,4 +43,8 @@ cat test.R | R --vanilla --slave --args <参数1>
 awk导入外部变量
 
          awk -v i="$i" '$3==i 。。。。。
+## 问题
+shell awk 浮点数比较出错问题
+
+
     
