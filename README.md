@@ -43,6 +43,26 @@ cat test.R | R --vanilla --slave --args <参数1>
 awk导入外部变量
 
          awk -v i="$i" '$3==i 。。。。。
+## 压缩 & 解压
+tar -xf file.tar
+tar -xzf file.tar.gz
+tar -xjf file.tar.bz2
+tar -xZf file.tar.Z
+unrar e file.rar
+unzip file.zip
+
+tar -cf file.tar file
+tar -czf file.tar.gz file
+tar -cjf file.tar.bz2 file
+
+
+
+
+
+
+
+
+
 ## 问题
 shell awk 浮点数比较出错问题
 
