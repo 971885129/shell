@@ -13,6 +13,9 @@ a=aa
 ## 字符串拼接
 c=${a}_vs_${b}
 <br>打印输出结果为a_vs_b
+## 字符串拆分
+<br>i=WB_vs_WP
+<br>echo $i | sed 's/_vs_/\t/g' | cut -f 1
 ## 调用R脚本
 cat test.R | R --vanilla --slave --args <参数1>
 <br>传入的第一个参数为args[5]
@@ -60,9 +63,13 @@ tar -cjf file.tar.bz2 file
 
 
 
+##报错
+sed替换报错
 
+        sed: -e expression #1, char 15: unknown option to `s'
 
-
+原因是所替换目标中有/
+<br>可将sed "///" 改为 sed "@@@"
 
 
 
