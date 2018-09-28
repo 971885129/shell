@@ -51,15 +51,15 @@ awk导入外部变量
          awk -v i="$i" '$3==i 。。。。。
 ## 压缩 & 解压
 tar -xf file.tar
-tar -xzf file.tar.gz
-tar -xjf file.tar.bz2
-tar -xZf file.tar.Z
-unrar e file.rar
-unzip file.zip
+<br>tar -xzf file.tar.gz
+<br>tar -xjf file.tar.bz2
+<br>tar -xZf file.tar.Z
+<br>unrar e file.rar
+<br>unzip file.zip
 
-tar -cf file.tar file
-tar -czf file.tar.gz file
-tar -cjf file.tar.bz2 file
+<br>tar -cf file.tar file
+<br>tar -czf file.tar.gz file
+<br>tar -cjf file.tar.bz2 file
 
 
 
