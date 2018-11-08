@@ -50,17 +50,19 @@ awk导入外部变量
 
          awk -v i="$i" '$3==i 。。。。。
 ## 7.压缩 & 解压
+* 解压
 tar -xf file.tar
 <br>tar -xzf file.tar.gz
 <br>tar -xjf file.tar.bz2
 <br>tar -xZf file.tar.Z
 <br>unrar e file.rar
 <br>unzip file.zip
-
+<br>gunzip file.gz
+* 压缩
 <br>tar -cf file.tar file
 <br>tar -czf file.tar.gz file
 <br>tar -cjf file.tar.bz2 file
-
+<br>gzip file
 
 ## 8.修改打开文件上限
 针对exhaust open files limit报错
