@@ -106,4 +106,7 @@ shell awk 浮点数比较出错问题
     du -h --max-depth 0 ./
     #0为当前目录，数字代表当前目录层数
 
+## 修改环境变量
+
+    /etc/profile
     
