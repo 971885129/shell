@@ -110,3 +110,9 @@ shell awk 浮点数比较出错问题
 
     /etc/profile
     
+## time命令
+
+* 在交互界面调用方式 /usr/bin/time 
+* 脚本中可直接time调用
+* 结果输出重定向 2>
+
