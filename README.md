@@ -130,3 +130,6 @@ shell awk 浮点数比较出错问题
         for i in `eval echo {1..$END}`
         for ((i=0;i<$END;i++))
 
+## 查看进程占用磁盘I/O
+
+    pidstat -d 1
